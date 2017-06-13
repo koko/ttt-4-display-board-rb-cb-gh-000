@@ -5,10 +5,10 @@ def display_board(board)
   board.each_with_index { |e, i|
     if i % 3 != 2
       print " #{e} |"
-    elsif i == 0
-      print " #{e} |"
-    end
-    if i % 3 == 2
+    # elsif i == 0
+    #   print " #{e} |"
+    else
+#    if i % 3 == 2
       puts " #{e} "
       puts "-----------"
     end
